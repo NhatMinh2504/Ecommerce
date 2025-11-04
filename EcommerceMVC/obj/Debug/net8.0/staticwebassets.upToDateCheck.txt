@@ -6,6 +6,306 @@ wwwroot\css\bootstrap.min.css
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\Hinh\Hinh\divider.gif
+wwwroot\Hinh\Hinh\HangHoa\1009.gif
+wwwroot\Hinh\Hinh\HangHoa\21meTyhQebL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31EPGSm2s1L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31hCgES5GXL._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31ioCUUFnoL.jpg
+wwwroot\Hinh\Hinh\HangHoa\31jsjfVfH9L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31LAnW1JFqL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31ncPnMYCxL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31pAGovVENL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31pT+SdvQXL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31TB6tC6BOL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31YOss-gC-L._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\31yxRemzRLL._SS350_ (1).jpg
+wwwroot\Hinh\Hinh\HangHoa\41-yvkFqVZL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\410PjzqoC8L._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\415cOCbey.jpg
+wwwroot\Hinh\Hinh\HangHoa\415cOCbeyML.jpg
+wwwroot\Hinh\Hinh\HangHoa\416OcTXFfeL._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\416pdroSEkL.jpg
+wwwroot\Hinh\Hinh\HangHoa\419WCoqfamL._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41A9R5KXCXL._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41BiMx1FKyL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41brDHtPY9L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41CIcYRxJKL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41G38jC0ajL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41GVLtgNngL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41iDo0HDhbL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41iji4-9UsL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41IPLmZIKhL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41KALboJKuL.jpg
+wwwroot\Hinh\Hinh\HangHoa\41lffECD-sL._SY445_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41LMouG6j7L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41MJUdI2jdL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41Pg1ahql8L._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41qfgTvFBwL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41qlcUEhNmL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41riQRGf-6L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41RxtSQOd2L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41sd2DTD8EL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41sdBTtnUDL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41sl3FN6NpL.jpg
+wwwroot\Hinh\Hinh\HangHoa\41sw9ASUvBL._SX342_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41TexqWVkHL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41V4Ds2PtZL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41w4TlVPhGL.jpg
+wwwroot\Hinh\Hinh\HangHoa\41wHu2N4tVL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41WvZnGYUkL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41XX7Pi240L.jpg
+wwwroot\Hinh\Hinh\HangHoa\41yh1vBmqsL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41Ymq8fjbOL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41Z43OmFHjL._SX342_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41ZE9SmWdzL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\41zxxR71G+L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51+4d3VBFvL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\513UnnRfFML._SL1001_.jpg
+wwwroot\Hinh\Hinh\HangHoa\515p1IeP0-L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\5195-l+nflL._AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51czOOat0OL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51GBNkHO6vL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51JhyHtnEgL._SL1001_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51l46qQB50L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51Lj5bxbNtL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51nukXFJLJL.jpg
+wwwroot\Hinh\Hinh\HangHoa\51pvLIvb6ZL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51s6pbRlNyL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51uJ-pWfc9L._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51vxcBS1sQL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51w+JqOnmSL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51y46IslQkL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51yomC0EodL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\51Z9tfgl4aL._SL500_AA300_.jpg
+wwwroot\Hinh\Hinh\HangHoa\71bJrFAys9L._SL1280_.jpg
+wwwroot\Hinh\Hinh\HangHoa\71cBwWAgvIL._SL1430_.jpg
+wwwroot\Hinh\Hinh\HangHoa\816zGZv1ORL._SL1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\81k1XbQ6nQL._SL1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\81Q1DvOnnoL._SL1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\91FM0Hog9FL._SL1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\91JUBDf1jTL._AA1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\91T2BjUkYmL._SL1500_.jpg
+wwwroot\Hinh\Hinh\HangHoa\Camera1.jpg
+wwwroot\Hinh\Hinh\HangHoa\To.gif
+wwwroot\Hinh\Hinh\icons\Accept.png
+wwwroot\Hinh\Hinh\icons\Add to basket.png
+wwwroot\Hinh\Hinh\icons\Add.png
+wwwroot\Hinh\Hinh\icons\Address book.png
+wwwroot\Hinh\Hinh\icons\Alarm.png
+wwwroot\Hinh\Hinh\icons\Anchor.png
+wwwroot\Hinh\Hinh\icons\Application form.png
+wwwroot\Hinh\Hinh\icons\Bar chart.png
+wwwroot\Hinh\Hinh\icons\Basket.png
+wwwroot\Hinh\Hinh\icons\Bell.png
+wwwroot\Hinh\Hinh\icons\Best.png
+wwwroot\Hinh\Hinh\icons\Billboard.png
+wwwroot\Hinh\Hinh\icons\Bluetooth.png
+wwwroot\Hinh\Hinh\icons\Bomb.png
+wwwroot\Hinh\Hinh\icons\Book.png
+wwwroot\Hinh\Hinh\icons\Bookmark.png
+wwwroot\Hinh\Hinh\icons\Box.png
+wwwroot\Hinh\Hinh\icons\Boy.png
+wwwroot\Hinh\Hinh\icons\Brick house.png
+wwwroot\Hinh\Hinh\icons\Bricks.png
+wwwroot\Hinh\Hinh\icons\Brief case.png
+wwwroot\Hinh\Hinh\icons\Brightness.png
+wwwroot\Hinh\Hinh\icons\Bubble.png
+wwwroot\Hinh\Hinh\icons\Buddy.png
+wwwroot\Hinh\Hinh\icons\Cable.png
+wwwroot\Hinh\Hinh\icons\Calculator.png
+wwwroot\Hinh\Hinh\icons\Calendar.png
+wwwroot\Hinh\Hinh\icons\Call.png
+wwwroot\Hinh\Hinh\icons\Camera.png
+wwwroot\Hinh\Hinh\icons\Card file.png
+wwwroot\Hinh\Hinh\icons\Cash register.png
+wwwroot\Hinh\Hinh\icons\Cat.png
+wwwroot\Hinh\Hinh\icons\Certificate.png
+wwwroot\Hinh\Hinh\icons\Clien list.png
+wwwroot\Hinh\Hinh\icons\Clipboard.png
+wwwroot\Hinh\Hinh\icons\Clock.png
+wwwroot\Hinh\Hinh\icons\Closed door.png
+wwwroot\Hinh\Hinh\icons\Closed folder.png
+wwwroot\Hinh\Hinh\icons\Coin.png
+wwwroot\Hinh\Hinh\icons\Coins.png
+wwwroot\Hinh\Hinh\icons\Color wheel.png
+wwwroot\Hinh\Hinh\icons\Comment.png
+wwwroot\Hinh\Hinh\icons\Comments.png
+wwwroot\Hinh\Hinh\icons\Company.png
+wwwroot\Hinh\Hinh\icons\Computer.png
+wwwroot\Hinh\Hinh\icons\Conference.png
+wwwroot\Hinh\Hinh\icons\Connect.png
+wwwroot\Hinh\Hinh\icons\Construction.png
+wwwroot\Hinh\Hinh\icons\Contrast.png
+wwwroot\Hinh\Hinh\icons\Control panel.png
+wwwroot\Hinh\Hinh\icons\Create.png
+wwwroot\Hinh\Hinh\icons\Database.png
+wwwroot\Hinh\Hinh\icons\Date.png
+wwwroot\Hinh\Hinh\icons\Delete.png
+wwwroot\Hinh\Hinh\icons\Desktop.png
+wwwroot\Hinh\Hinh\icons\Diagram.png
+wwwroot\Hinh\Hinh\icons\Dice.png
+wwwroot\Hinh\Hinh\icons\Disconnect.png
+wwwroot\Hinh\Hinh\icons\Discussion.png
+wwwroot\Hinh\Hinh\icons\Document.png
+wwwroot\Hinh\Hinh\icons\Documents.png
+wwwroot\Hinh\Hinh\icons\Dog.png
+wwwroot\Hinh\Hinh\icons\Dollar.png
+wwwroot\Hinh\Hinh\icons\Down.png
+wwwroot\Hinh\Hinh\icons\Download.png
+wwwroot\Hinh\Hinh\icons\Edit.png
+wwwroot\Hinh\Hinh\icons\eng.gif
+wwwroot\Hinh\Hinh\icons\Euro.png
+wwwroot\Hinh\Hinh\icons\Exit button.png
+wwwroot\Hinh\Hinh\icons\Exit.png
+wwwroot\Hinh\Hinh\icons\Favourites.png
+wwwroot\Hinh\Hinh\icons\Fax.png
+wwwroot\Hinh\Hinh\icons\Flash drive.png
+wwwroot\Hinh\Hinh\icons\Flow block.png
+wwwroot\Hinh\Hinh\icons\Free.png
+wwwroot\Hinh\Hinh\icons\Friends.png
+wwwroot\Hinh\Hinh\icons\Full basket.png
+wwwroot\Hinh\Hinh\icons\Funny.png
+wwwroot\Hinh\Hinh\icons\Game controller.png
+wwwroot\Hinh\Hinh\icons\Gear.png
+wwwroot\Hinh\Hinh\icons\Genealogy.png
+wwwroot\Hinh\Hinh\icons\Gift.png
+wwwroot\Hinh\Hinh\icons\Girl.png
+wwwroot\Hinh\Hinh\icons\Globe.png
+wwwroot\Hinh\Hinh\icons\Handshake.png
+wwwroot\Hinh\Hinh\icons\Happy.png
+wwwroot\Hinh\Hinh\icons\Hard disk.png
+wwwroot\Hinh\Hinh\icons\Heart.png
+wwwroot\Hinh\Hinh\icons\Help.png
+wwwroot\Hinh\Hinh\icons\Hierarchy.png
+wwwroot\Hinh\Hinh\icons\Home.png
+wwwroot\Hinh\Hinh\icons\Hungup.png
+wwwroot\Hinh\Hinh\icons\Industry.png
+wwwroot\Hinh\Hinh\icons\Info.png
+wwwroot\Hinh\Hinh\icons\Key.png
+wwwroot\Hinh\Hinh\icons\Label.png
+wwwroot\Hinh\Hinh\icons\Left.png
+wwwroot\Hinh\Hinh\icons\Lego brick.png
+wwwroot\Hinh\Hinh\icons\Letter.png
+wwwroot\Hinh\Hinh\icons\List.png
+wwwroot\Hinh\Hinh\icons\Lists.png
+wwwroot\Hinh\Hinh\icons\Lock.png
+wwwroot\Hinh\Hinh\icons\Log out.png
+wwwroot\Hinh\Hinh\icons\Login.png
+wwwroot\Hinh\Hinh\icons\Mail.png
+wwwroot\Hinh\Hinh\icons\Microsoft.png
+wwwroot\Hinh\Hinh\icons\Mobile phone.png
+wwwroot\Hinh\Hinh\icons\Money.png
+wwwroot\Hinh\Hinh\icons\Monitor.png
+wwwroot\Hinh\Hinh\icons\Mouse.png
+wwwroot\Hinh\Hinh\icons\Music.png
+wwwroot\Hinh\Hinh\icons\No.png
+wwwroot\Hinh\Hinh\icons\Notes.png
+wwwroot\Hinh\Hinh\icons\Numbered list.png
+wwwroot\Hinh\Hinh\icons\OK.png
+wwwroot\Hinh\Hinh\icons\Online.png
+wwwroot\Hinh\Hinh\icons\Open door.png
+wwwroot\Hinh\Hinh\icons\Open file.png
+wwwroot\Hinh\Hinh\icons\Open folder.png
+wwwroot\Hinh\Hinh\icons\Open letter.png
+wwwroot\Hinh\Hinh\icons\Open lock.png
+wwwroot\Hinh\Hinh\icons\Payment.png
+wwwroot\Hinh\Hinh\icons\Peace.png
+wwwroot\Hinh\Hinh\icons\Pets.png
+wwwroot\Hinh\Hinh\icons\Phone.png
+wwwroot\Hinh\Hinh\icons\Piggy bank.png
+wwwroot\Hinh\Hinh\icons\Piggy.png
+wwwroot\Hinh\Hinh\icons\Pointer.png
+wwwroot\Hinh\Hinh\icons\Pound.png
+wwwroot\Hinh\Hinh\icons\Price list.png
+wwwroot\Hinh\Hinh\icons\Print preview.png
+wwwroot\Hinh\Hinh\icons\Print.png
+wwwroot\Hinh\Hinh\icons\Printer.png
+wwwroot\Hinh\Hinh\icons\Problem.png
+wwwroot\Hinh\Hinh\icons\Properties.png
+wwwroot\Hinh\Hinh\icons\Red star.png
+wwwroot\Hinh\Hinh\icons\Refresh.png
+wwwroot\Hinh\Hinh\icons\Remove from basket.png
+wwwroot\Hinh\Hinh\icons\Report.png
+wwwroot\Hinh\Hinh\icons\Right.png
+wwwroot\Hinh\Hinh\icons\Rouble.png
+wwwroot\Hinh\Hinh\icons\RSS.png
+wwwroot\Hinh\Hinh\icons\Sad.png
+wwwroot\Hinh\Hinh\icons\Safe.png
+wwwroot\Hinh\Hinh\icons\Save as.png
+wwwroot\Hinh\Hinh\icons\Save.png
+wwwroot\Hinh\Hinh\icons\Scroll list.png
+wwwroot\Hinh\Hinh\icons\Search.png
+wwwroot\Hinh\Hinh\icons\Shield.png
+wwwroot\Hinh\Hinh\icons\Smile.png
+wwwroot\Hinh\Hinh\icons\Software.png
+wwwroot\Hinh\Hinh\icons\Statistics.png
+wwwroot\Hinh\Hinh\icons\Stop.png
+wwwroot\Hinh\Hinh\icons\Task list.png
+wwwroot\Hinh\Hinh\icons\Telephone.png
+wwwroot\Hinh\Hinh\icons\Text.png
+wwwroot\Hinh\Hinh\icons\Tick.png
+wwwroot\Hinh\Hinh\icons\To do list.png
+wwwroot\Hinh\Hinh\icons\Trash.png
+wwwroot\Hinh\Hinh\icons\Unknown person.png
+wwwroot\Hinh\Hinh\icons\Unlock.png
+wwwroot\Hinh\Hinh\icons\Unordered list.png
+wwwroot\Hinh\Hinh\icons\Up.png
+wwwroot\Hinh\Hinh\icons\Upload.png
+wwwroot\Hinh\Hinh\icons\User group.png
+wwwroot\Hinh\Hinh\icons\User.png
+wwwroot\Hinh\Hinh\icons\Users.png
+wwwroot\Hinh\Hinh\icons\vit.gif
+wwwroot\Hinh\Hinh\icons\Wallet.png
+wwwroot\Hinh\Hinh\icons\Warning.png
+wwwroot\Hinh\Hinh\icons\Weather.png
+wwwroot\Hinh\Hinh\icons\Wireless.png
+wwwroot\Hinh\Hinh\icons\Wizard.png
+wwwroot\Hinh\Hinh\icons\Yen.png
+wwwroot\Hinh\Hinh\icons\Yin-Yang.png
+wwwroot\Hinh\Hinh\icons\Zoom in.png
+wwwroot\Hinh\Hinh\icons\Zoom out.png
+wwwroot\Hinh\Hinh\icons\Zoom.png
+wwwroot\Hinh\Hinh\KhachHang\android_300200.png
+wwwroot\Hinh\Hinh\KhachHang\Author.jpg
+wwwroot\Hinh\Hinh\KhachHang\man.jpg
+wwwroot\Hinh\Hinh\KhachHang\Penguins.jpg
+wwwroot\Hinh\Hinh\KhachHang\woman.jpg
+wwwroot\Hinh\Hinh\Loai11.jpeg
+wwwroot\Hinh\Hinh\Loaiimages.jpeg
+wwwroot\Hinh\Hinh\Loai\Accept.png
+wwwroot\Hinh\Hinh\Loai\agenda_1.jpg
+wwwroot\Hinh\Hinh\Loai\Alarm.png
+wwwroot\Hinh\Hinh\Loai\Anchor.png
+wwwroot\Hinh\Hinh\Loai\Bell.png
+wwwroot\Hinh\Hinh\Loai\Best.png
+wwwroot\Hinh\Hinh\Loai\Billboard.png
+wwwroot\Hinh\Hinh\Loai\Bomb.png
+wwwroot\Hinh\Hinh\Loai\Brick house.png
+wwwroot\Hinh\Hinh\Loai\Bricks.png
+wwwroot\Hinh\Hinh\Loai\Buddy.png
+wwwroot\Hinh\Hinh\Loai\Certificate.png
+wwwroot\Hinh\Hinh\Loai\Dice.png
+wwwroot\Hinh\Hinh\Loai\Dollar.png
+wwwroot\Hinh\Hinh\Loai\Favourites.png
+wwwroot\Hinh\Hinh\Loai\Funny.png
+wwwroot\Hinh\Hinh\Loai\Heart.png
+wwwroot\Hinh\Hinh\Loai\Microsoft.png
+wwwroot\Hinh\Hinh\Loai\Unlock.png
+wwwroot\Hinh\Hinh\NhaCC\Acer_logo-300x300.gif
+wwwroot\Hinh\Hinh\NhaCC\amd-logo.jpg
+wwwroot\Hinh\Hinh\NhaCC\apple.jpg
+wwwroot\Hinh\Hinh\NhaCC\dell-logo.jpg
+wwwroot\Hinh\Hinh\NhaCC\dell-logo2.jpg
+wwwroot\Hinh\Hinh\NhaCC\hp-logo.jpg
+wwwroot\Hinh\Hinh\NhaCC\intel-logo.jpg
+wwwroot\Hinh\Hinh\NhaCC\motorola.jpg
+wwwroot\Hinh\Hinh\NhaCC\nokia.jpg
+wwwroot\Hinh\Hinh\NhaCC\samsung-logo-2.jpg
+wwwroot\Hinh\Hinh\NhaCC\samsung.jpg
+wwwroot\Hinh\Hinh\NhaCC\shopping_cart.png
+wwwroot\Hinh\Hinh\NhaCC\sonny-ericsson.jpg
+wwwroot\Hinh\Hinh\Others\shopping_cart.png
 wwwroot\img\avatar.jpg
 wwwroot\img\baner-1.png
 wwwroot\img\banner-fruits.jpg

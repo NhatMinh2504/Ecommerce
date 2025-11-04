@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -29,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <div>
@@ -93,6 +95,24 @@
             </div>
         </div>
         <!-- Navbar End -->
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input id="searchText" type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="searchButton" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
 		@await Html.PartialAsync("_Footer")
     </div>
     <!-- Back to Top -->
@@ -108,6 +128,26 @@
     <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="~/js/main.js"></script>
+    @RenderSection("Script", required: false)
+    <script>
+        $(document).ready(function () {
+            $("#searchButton").click(function () {
+                var query = $("#searchText").val().trim();
+                if (query.length > 0) {
+                    var url = '/HangHoa/Search?query=' + encodeURIComponent(query);
+                    window.location.href = url;
+                }
+            });
+
+            // Cho phép nhấn Enter để search
+            $("#searchText").on("keypress", function (e) {
+                if (e.which === 13) {
+                    e.preventDefault();
+                    $("#searchButton").click();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
