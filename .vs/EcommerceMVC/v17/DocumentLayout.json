@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +19,40 @@
       "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\wwwroot\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\wwwroot\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\components\\menuloai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewmodels\\menuloaivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewmodels\\menuloaivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewmodels\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewmodels\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewcomponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewcomponents\\menuloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\wwwroot\\shop-detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\wwwroot\\shop-detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\wwwroot\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\wwwroot\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\hanghoa\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\hanghoa\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,47 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "shop.html",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop.html",
-              "RelativeDocumentMoniker": "EcommerceMVC\\wwwroot\\shop.html",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop.html",
-              "RelativeToolTip": "EcommerceMVC\\wwwroot\\shop.html",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAG8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-04T18:12:18.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T18:03:52.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAuwIIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:48:02.488Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -99,74 +72,139 @@
               "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_DanhSachHangHoa.cshtml",
               "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_DanhSachHangHoa.cshtml",
               "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_DanhSachHangHoa.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:47:48.737Z",
+              "WhenOpened": "2025-11-06T15:29:09.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\Components\\MenuLoai\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_TimKiemPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T17:43:35.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuLoaiVM.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\MenuLoaiVM.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\MenuLoaiVM.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\MenuLoaiVM.cs",
-              "RelativeToolTip": "EcommerceMVC\\ViewModels\\MenuLoaiVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:43:24.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MenuLoaiViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewComponents\\MenuLoaiViewComponent.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\ViewComponents\\MenuLoaiViewComponent.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewComponents\\MenuLoaiViewComponent.cs",
-              "RelativeToolTip": "EcommerceMVC\\ViewComponents\\MenuLoaiViewComponent.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:43:10.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HangHoaVM.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\HangHoaVM.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\HangHoaVM.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\HangHoaVM.cs",
-              "RelativeToolTip": "EcommerceMVC\\ViewModels\\HangHoaVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:17:03.789Z",
+              "WhenOpened": "2025-11-06T15:26:52.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "_LayoutCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwEUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T15:13:52.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "shop-detail.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop-detail.html",
+              "RelativeDocumentMoniker": "EcommerceMVC\\wwwroot\\shop-detail.html",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\shop-detail.html",
+              "RelativeToolTip": "EcommerceMVC\\wwwroot\\shop-detail.html",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwGACAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-06T15:01:45.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\HangHoa\\Detail.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAawNYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T15:01:24.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "404.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\404.html",
+              "RelativeDocumentMoniker": "EcommerceMVC\\wwwroot\\404.html",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\404.html",
+              "RelativeToolTip": "EcommerceMVC\\wwwroot\\404.html",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAQwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-06T14:56:04.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageNotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Home\\PageNotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T14:55:50.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EcommerceMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:53:49.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HangHoaController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\HangHoaController.cs",
               "RelativeDocumentMoniker": "EcommerceMVC\\Controllers\\HangHoaController.cs",
               "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\HangHoaController.cs",
               "RelativeToolTip": "EcommerceMVC\\Controllers\\HangHoaController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwDAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:16:56.26Z",
+              "WhenOpened": "2025-11-06T14:52:03.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HangHoaVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\HangHoaVM.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\HangHoaVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\HangHoaVM.cs",
+              "RelativeToolTip": "EcommerceMVC\\ViewModels\\HangHoaVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:51:57.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\HangHoa\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T14:46:36.141Z",
               "EditorCaption": ""
             },
             {
@@ -177,9 +215,22 @@
               "RelativeDocumentMoniker": "EcommerceMVC\\Views\\HangHoa\\Index.cshtml",
               "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\Index.cshtml",
               "RelativeToolTip": "EcommerceMVC\\Views\\HangHoa\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T09:26:17.749Z",
+              "WhenOpened": "2025-11-06T14:42:34.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\HangHoa\\ProductItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T14:42:18.783Z",
               "EditorCaption": ""
             }
           ]
