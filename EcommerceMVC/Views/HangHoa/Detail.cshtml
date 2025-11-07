@@ -7,7 +7,7 @@
 <div class="container-fluid page-header py-5">
     <h1 class="text-center text-white display-6">Shop Detail</h1>
     <ol class="breadcrumb justify-content-center mb-0">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
         <li class="breadcrumb-item"><a href="#">Hang Hoa</a></li>
         <li class="breadcrumb-item active text-white">@Model.TenHh</li>
     </ol>
@@ -38,7 +38,7 @@
                             <i class="fa fa-star"></i>
                         </div>
                         <p class="mb-4">@Model.MoTaNgan</p>
-                        <form asp-action="AddToCart" asp-controller="Cart" asp-all-route-id="@Model.MaHh">
+                        <form asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.MaHh">
                        <div class="input-group quantity mb-5" style="width: 100px;">
                             <div class="input-group-btn">
                                 <button class="btn btn-sm btn-minus rounded-circle bg-light border" type="button">
@@ -47,7 +47,7 @@
                             </div>
                             <input type="text" class="form-control form-control-sm text-center border-0" value="1" name="quantity">
                             <div class="input-group-btn">
-                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border" type="button>
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border" type="button">
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
