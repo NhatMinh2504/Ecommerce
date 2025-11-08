@@ -1,4 +1,5 @@
 using EcommerceMVC.Data;
+using EcommerceMVC.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceMVC
@@ -21,6 +22,9 @@ namespace EcommerceMVC
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+
+            builder.Services.AddSingleton<IVnPayService, VnPayService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

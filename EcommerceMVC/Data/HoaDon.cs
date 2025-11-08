@@ -17,6 +17,8 @@ public partial class HoaDon
 
     public string? HoTen { get; set; }
 
+    public string? DienThoai { get; set; }
+
     public string DiaChi { get; set; } = null!;
 
     public string CachThanhToan { get; set; } = null!;

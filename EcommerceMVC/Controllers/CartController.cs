@@ -1,6 +1,8 @@
 ﻿using EcommerceMVC.Data;
 using EcommerceMVC.Helpers;
+using EcommerceMVC.Services;
 using EcommerceMVC.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,11 +11,14 @@ namespace EcommerceMVC.Controllers
     public class CartController : Controller
     {
         private readonly Hshop2023Context _db;
+        private readonly IVnPayService _vnPayService;
 
-        public CartController(Hshop2023Context context)
+        public CartController(Hshop2023Context context,IVnPayService vnPayService)
         {
             _db = context;
+            _vnPayService= vnPayService;
         }
+        public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY) ?? new List<CartItem>();
 
         // Helper: lấy giỏ từ Session
         private List<CartItem> GetCart()
@@ -137,6 +142,121 @@ namespace EcommerceMVC.Controllers
         {
             SaveCart(new List<CartItem>());
             return RedirectToAction("Index");
+        }
+        // [Authorize]
+        [HttpGet]
+        public IActionResult Checkout()
+        {
+            var cart = GetCart();
+            if (cart.Count == 0)
+            {
+                TempData["Message"] = "Giỏ hàng trống. Vui lòng thêm sản phẩm trước khi thanh toán.";
+                return RedirectToAction("Index");
+            }
+            return View(cart);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Checkout(CheckoutVM model, string payment = PaymentType.COD)
+        {
+            if (!ModelState.IsValid)
+                return View(GetCart()); // hoặc return View(model) tùy bạn
+
+            // Nếu bấm nút VNPAY -> tạo URL và Redirect sang VNPAY
+            if (payment == PaymentType.VNPAY)
+            {
+                var vnReq = new VnPaymentRequestModel
+                {
+                    Amount = Cart.Sum(p => p.ThanhTien),   // chú ý: service VNPAY thường yêu cầu x100
+                    CreatedDate = DateTime.Now,
+                    OrderDescription = $"{model.HoTen} {model.DienThoai}",
+                    FullName = model.HoTen,
+                    OrderId = new Random().Next(100000, 999999)
+                };
+                return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnReq));
+            }
+
+            // ====== COD flow ======
+            var customerId = HttpContext.User?.Claims
+                .SingleOrDefault(p => p.Type == MySetting.CLAIM_CUSTOMERID)?.Value;
+
+            var khachHang = new KhachHang();
+            if (model.GiongKhachHang && !string.IsNullOrEmpty(customerId))
+            {
+                khachHang = _db.KhachHangs.SingleOrDefault(kh => kh.MaKh == customerId);
+            }
+
+            var hoadon = new HoaDon
+            {
+                MaKh = customerId,
+                HoTen = model.HoTen ?? khachHang?.HoTen,
+                DiaChi = model.DiaChi ?? khachHang?.DiaChi,
+                DienThoai = model.DienThoai ?? khachHang?.DienThoai,
+                NgayDat = DateTime.Now,
+                CachThanhToan = PaymentType.COD,
+                CachVanChuyen = "Grap",
+                MaTrangThai = 0,
+                GhiChu = model.GhiChu
+            };
+
+            using (var tran = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    _db.HoaDons.Add(hoadon);
+                    _db.SaveChanges();
+
+                    // Thêm chi tiết hoá đơn từ giỏ
+                    var details = Cart.Select(x => new ChiTietHd
+                    {
+                        MaHd = hoadon.MaHd,
+                        MaHh = x.MaHH,
+                        SoLuong = x.SoLuong,
+                        DonGia = x.DonGia
+                    }).ToList();
+
+                    _db.ChiTietHds.AddRange(details);
+                    _db.SaveChanges();
+
+                    tran.Commit();
+
+                    // Xoá giỏ
+                    SaveCart(new List<CartItem>());
+                    return RedirectToAction("PaymentSuccess");
+                }
+                catch (Exception ex)
+                {
+                    tran.Rollback();
+                    ModelState.AddModelError("", "Lỗi khi lưu hoá đơn: " + ex.Message);
+                    return View(GetCart());
+                }
+            }
+        }
+        public IActionResult PaymentSuccess()
+        {
+            return View("Success");
+        }
+        public IActionResult PaymentFail()
+        {
+            return View();
+        }
+        //   [Authorize]
+        [AllowAnonymous]
+        public IActionResult PaymentCallBack()
+        {
+            var response = _vnPayService.PaymentExecute(Request.Query);
+
+            if (response == null || response.VnPayResponseCode != "00")
+            {
+                TempData["Message"] = $"Lỗi thanh toán VN Pay: {response.VnPayResponseCode}";
+                return RedirectToAction("PaymentFail");
+            }
+
+
+            // Lưu đơn hàng vô database
+
+            TempData["Message"] = $"Thanh toán VNPay thành công";
+            return RedirectToAction("PaymentSuccess");
         }
     }
 }
