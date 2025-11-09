@@ -258,3 +258,4 @@ C:\Users\DELL\PRn222\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\runtimes\win\lib
 C:\Users\DELL\PRn222\EcommerceMVC\EcommerceMVC\obj\Debug\net8.0\EcommerceMVC.sourcelink.json
 C:\Users\DELL\PRn222\EcommerceMVC\EcommerceMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\DELL\PRn222\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\DELL\PRn222\EcommerceMVC\EcommerceMVC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

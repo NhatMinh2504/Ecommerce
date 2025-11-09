@@ -1,4 +1,5 @@
 using EcommerceMVC.Data;
+using EcommerceMVC.Helpers;
 using EcommerceMVC.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +25,7 @@ namespace EcommerceMVC
             });
 
             builder.Services.AddSingleton<IVnPayService, VnPayService>();
+            builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
             var app = builder.Build();
 

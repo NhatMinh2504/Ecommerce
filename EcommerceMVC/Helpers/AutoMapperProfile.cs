@@ -1,6 +1,8 @@
-﻿using AutoMapper;
+﻿
+using AutoMapper;
 using EcommerceMVC.Data;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using EcommerceMVC.ViewModels;
+
 
 namespace EcommerceMVC.Helpers
 {
@@ -8,7 +10,7 @@ namespace EcommerceMVC.Helpers
     {
         public AutoMapperProfile()
         {
-        //    CreateMap<RegisterVM, KhachHang>();
+            CreateMap<RegisterVM, KhachHang>();
             //.ForMember(kh => kh.HoTen, option => option.MapFrom(RegisterVM => RegisterVM.HoTen))
             //.ReverseMap();
         }

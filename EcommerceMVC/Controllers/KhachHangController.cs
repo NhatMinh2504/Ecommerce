@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EcommerceMVC.Data;
 using EcommerceMVC.Helpers;
+using EcommerceMVC.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -28,36 +29,36 @@ namespace EcommerceMVC.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult DangKy(RegisterVM model, IFormFile Hinh)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        try
-        //        {
-        //            var khachHang = _mapper.Map<KhachHang>(model);
-        //            khachHang.RandomKey = MyUtil.GenerateRamdomKey();
-        //            khachHang.MatKhau = model.MatKhau.ToMd5Hash(khachHang.RandomKey);
-        //            khachHang.HieuLuc = true;//sẽ xử lý khi dùng Mail để active
-        //            khachHang.VaiTro = 0;
+        [HttpPost]
+        public IActionResult DangKy(RegisterVM model, IFormFile Hinh)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var khachHang = _mapper.Map<KhachHang>(model);
+                    khachHang.RandomKey = Util.GenerateRamdomKey();
+                    khachHang.MatKhau = model.MatKhau.ToMd5Hash(khachHang.RandomKey);
+                    khachHang.HieuLuc = true;//sẽ xử lý khi dùng Mail để active
+                    khachHang.VaiTro = 0;
 
-        //            if (Hinh != null)
-        //            {
-        //                khachHang.Hinh = MyUtil.UploadHinh(Hinh, "KhachHang");
-        //            }
+                    if (Hinh != null)
+                    {
+                        khachHang.Hinh = Util.UploadHinh(Hinh, "KhachHang");
+                    }
 
-        //            db.Add(khachHang);
-        //            db.SaveChanges();
-        //            return RedirectToAction("Index", "HangHoa");
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            var mess = $"{ex.Message} shh";
-        //        }
-        //    }
-        //    return View();
-        //}
-        //#endregion
+                    db.Add(khachHang);
+                    db.SaveChanges();
+                    return RedirectToAction("Index", "HangHoa");
+                }
+                catch (Exception ex)
+                {
+                    var mess = $"{ex.Message} shh";
+                }
+            }
+            return View();
+        }
+        #endregion
 
 
         //#region Login
@@ -98,8 +99,8 @@ namespace EcommerceMVC.Controllers
         //                        new Claim(ClaimTypes.Name, khachHang.HoTen),
         //                        new Claim(MySetting.CLAIM_CUSTOMERID, khachHang.MaKh),
 
-								////claim - role động
-								//new Claim(ClaimTypes.Role, "Customer")
+        ////claim - role động
+        //new Claim(ClaimTypes.Role, "Customer")
         //                    };
 
         //                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -121,7 +122,7 @@ namespace EcommerceMVC.Controllers
         //    }
         //    return View();
         //}
-        #endregion
+
 
         [Authorize]
         public IActionResult Profile()

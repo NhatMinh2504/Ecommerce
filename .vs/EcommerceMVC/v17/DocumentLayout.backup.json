@@ -3,64 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewmodels\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\wwwroot\\chackout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\wwwroot\\chackout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\_layoutcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\khachhang\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\khachhang\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|c:\\users\\dell\\prn222\\ecommercemvc\\ecommercemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC5D5C91-08B2-4919-B26B-C19E038E1BF3}|EcommerceMVC\\EcommerceMVC.csproj|solutionrelative:ecommercemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,201 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "EcommerceMVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\appsettings.json",
-              "RelativeToolTip": "EcommerceMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-08T07:13:27.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VnPayService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Services\\VnPayService.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Services\\VnPayService.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Services\\VnPayService.cs",
-              "RelativeToolTip": "EcommerceMVC\\Services\\VnPayService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:10:31.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IVnPayService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Services\\IVnPayService.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Services\\IVnPayService.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Services\\IVnPayService.cs",
-              "RelativeToolTip": "EcommerceMVC\\Services\\IVnPayService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:10:29.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VnPayLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\VnPayLibrary.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\VnPayLibrary.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\VnPayLibrary.cs",
-              "RelativeToolTip": "EcommerceMVC\\Helpers\\VnPayLibrary.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:10:12.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VnPaymentResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\VnPaymentResponseModel.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\VnPaymentResponseModel.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\VnPaymentResponseModel.cs",
-              "RelativeToolTip": "EcommerceMVC\\ViewModels\\VnPaymentResponseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T06:31:29.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaymentFail.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\PaymentFail.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Cart\\PaymentFail.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\PaymentFail.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Cart\\PaymentFail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T05:57:09.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Success.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Cart\\Success.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Success.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Cart\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T05:56:03.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MySetting.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\MySetting.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\MySetting.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\MySetting.cs*",
-              "RelativeToolTip": "EcommerceMVC\\Helpers\\MySetting.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:14:51.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
-              "RelativeToolTip": "EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Title": "DataEncryptionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\DataEncryptionExtensions.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\DataEncryptionExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\DataEncryptionExtensions.cs",
+              "RelativeToolTip": "EcommerceMVC\\Helpers\\DataEncryptionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:14:23.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KhachHangController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\KhachHangController.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Controllers\\KhachHangController.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\KhachHangController.cs",
-              "RelativeToolTip": "EcommerceMVC\\Controllers\\KhachHangController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAqwIsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:12:58.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CheckoutVM.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\CheckoutVM.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\CheckoutVM.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\CheckoutVM.cs",
-              "RelativeToolTip": "EcommerceMVC\\ViewModels\\CheckoutVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:01:33.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "chackout.html",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\chackout.html",
-              "RelativeDocumentMoniker": "EcommerceMVC\\wwwroot\\chackout.html",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\wwwroot\\chackout.html",
-              "RelativeToolTip": "EcommerceMVC\\wwwroot\\chackout.html",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAHIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-08T04:42:31.575Z",
+              "WhenOpened": "2025-11-09T17:51:42.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T04:42:14.355Z",
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "EcommerceMVC\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:48:50.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\CartController.cs",
-              "RelativeToolTip": "EcommerceMVC\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAwwJ8AAABYAAAAAAAAAA==",
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\Util.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\Util.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\Util.cs",
+              "RelativeToolTip": "EcommerceMVC\\Helpers\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:40:55.665Z",
+              "WhenOpened": "2025-11-09T17:43:11.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "EcommerceMVC\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG8AAABFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Program.cs*",
+              "RelativeToolTip": "EcommerceMVC\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:40:47.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Helpers\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Helpers\\AutoMapperProfile.cs*",
+              "RelativeToolTip": "EcommerceMVC\\Helpers\\AutoMapperProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:37:59.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T04:39:48.509Z",
+              "WhenOpened": "2025-11-09T17:27:27.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\KhachHang\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\KhachHang\\DangKy.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\KhachHang\\DangKy.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\KhachHang\\DangKy.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T17:26:40.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Controllers\\KhachHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "EcommerceMVC\\Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAASwCQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:24:05.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "EcommerceMVC\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "EcommerceMVC\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:23:08.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_LayoutCategory.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwEYAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T17:06:28.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EcommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\PRn222\\EcommerceMVC\\EcommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EcommerceMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T17:01:50.563Z",
               "EditorCaption": ""
             }
           ]
