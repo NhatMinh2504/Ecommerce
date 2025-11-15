@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EcommerceMVC.ViewModels.HangHoaVM>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "_DanhSachHangHoa";
+}
+
+@section BredCum {
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Search</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active text-white">Search</li>
+        </ol>
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    @await Html.PartialAsync("ProductItem", Model)
+}
+else
+{
+    <div class="w-100 text-center text-muted py-5">
+        Không tìm thấy sản phẩm phù hợp.
+        @{
+            var q = ViewContext?.HttpContext?.Request?.Query["query"].ToString();
+            if (!string.IsNullOrWhiteSpace(q))
+            {
+                <div class="mt-2">Từ khoá: "<strong>@q</strong>"</div>
+            }
+        }
+    </div>
+}

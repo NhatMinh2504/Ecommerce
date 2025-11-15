@@ -1,0 +1,81 @@
+﻿@model EcommerceMVC.ViewModels.RegisterVM
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Đăng ký Thành viên</h1>
+
+        <form asp-action="DangKy" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                            <label asp-for="MaKh" class="form-label my-3"></label><sup>*</sup>
+                            <input asp-for="MaKh" class="form-control" />
+                            <span asp-validation-for="MaKh" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+                        <label asp-for="MatKhau" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="MatKhau" class="form-control" type="password" />
+                        <span asp-validation-for="MatKhau" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label asp-for="HoTen" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="HoTen" class="form-control" />
+                        <span asp-validation-for="HoTen" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-check my-3">
+                        <input asp-for="GioiTinh" class="form-check-input" />
+                        <label class="form-check-label" asp-for="GioiTinh">Nam?</label>
+                        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label asp-for="NgaySinh" class="form-label my-3"></label>
+                        <input asp-for="NgaySinh" class="form-control" type="date" />
+                        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label asp-for="DiaChi" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="DiaChi" class="form-control" />
+                        <span asp-validation-for="DiaChi" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label asp-for="DienThoai" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="DienThoai" class="form-control" />
+                        <span asp-validation-for="DienThoai" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label asp-for="Email" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="Email" class="form-control" type="email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="form-label my-3" for="Hinh">Hình<sup>*</sup></label>
+                        <input type="file" name="Hinh" id="Hinh" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                    <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">
+                        Đăng ký
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        @section Script {
+            <partial name="_ValidationScriptsPartial" />
+        }
+    </div>
+</div>

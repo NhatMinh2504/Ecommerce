@@ -1,0 +1,217 @@
+﻿@model IEnumerable<EcommerceMVC.ViewModels.CartItem>
+@{
+    ViewData["Title"] = "My Cart";
+    const double shippingFlat = 3.0;
+    var subTotalInit = Model?.Sum(p => p.ThanhTien) ?? 0;
+    var totalInit = subTotalInit + shippingFlat;
+}
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Cart</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+        <li class="breadcrumb-item active text-white">Cart</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+<!-- Cart Page Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="table-responsive">
+            <table class="table align-middle">
+                <thead>
+                    <tr>
+                        <th scope="col">Products</th>
+                        <th scope="col">Name</th>
+                        <th scope="col" class="text-end">Price</th>
+                        <th scope="col" class="text-center">Quantity</th>
+                        <th scope="col" class="text-end">Total</th>
+                        <th scope="col" class="text-center">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="cart-row"
+                            data-id="@item.MaHH"
+                            data-price="@item.DonGia">
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img src="~/Hinh/Hinh/HangHoa/@item.Hinh"
+                                         class="img-fluid me-3 rounded-circle"
+                                         style="width: 64px; height: 64px; object-fit: cover;"
+                                         alt="@item.TenHH" />
+                                </div>
+                            </td>
+                            <td>
+                                <a class="text-decoration-none"
+                                   asp-action="Detail"
+                                   asp-controller="HangHoa"
+                                   asp-route-id="@item.MaHH">
+                                    @item.TenHH
+                                </a>
+                            </td>
+                            <td class="text-end">
+                                <span class="unit-price" data-val="@item.DonGia">@item.DonGia</span> $
+                            </td>
+                            <td>
+                                <div class="input-group quantity justify-content-center" style="width: 120px;">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border" type="button" aria-label="Decrease">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                    <input type="text"
+                                           class="form-control form-control-sm text-center border-0 qty-input"
+                                           value="@item.SoLuong"
+                                           inputmode="numeric"
+                                           pattern="[0-9]*"
+                                           aria-label="Quantity" />
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border" type="button" aria-label="Increase">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td class="text-end">
+                                <span class="line-total">@item.ThanhTien</span> $
+                            </td>
+                            <td class="text-center">
+                                <a asp-action="RemoveCart"
+                                   asp-controller="Cart"
+                                   asp-route-id="@item.MaHH"
+                                   class="btn btn-md rounded-circle bg-light border"
+                                   title="Remove">
+                                    <i class="fa fa-times text-danger"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row g-4 justify-content-end mt-4">
+            <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
+                <div class="bg-light rounded">
+                    <div class="p-4">
+                        <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                        <div class="d-flex justify-content-between mb-3">
+                            <h6 class="mb-0 me-4">Subtotal:</h6>
+                            <p class="mb-0"><span id="subtotalAmount">@subTotalInit</span> $</p>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <h6 class="mb-0 me-4">Shipping</h6>
+                            <p class="mb-0"><span id="shippingAmount">@shippingFlat</span> $</p>
+                        </div>
+                    </div>
+                    <div class="py-3 mb-3 border-top border-bottom d-flex justify-content-between">
+                        <h5 class="mb-0 ps-4 me-4">Total</h5>
+                        <p class="mb-0 pe-4"><span id="totalAmount">@totalInit</span> $</p>
+                    </div>
+                    <div class="pb-4">
+                        <a class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase ms-4"
+                           asp-controller="Cart" asp-action="Checkout">
+                            Proceed Checkout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Cart Page End -->
+@section Script {
+    <script>
+        (function () {
+            const shippingFlat = parseFloat(document.getElementById('shippingAmount')?.textContent || '3') || 3;
+
+            function parseNum(el) {
+                if (!el) return 0;
+                const v = (el.textContent || el.value || '').toString().replace(/[^0-9.\-]/g, '');
+                const n = parseFloat(v);
+                return isNaN(n) ? 0 : n;
+            }
+
+            function format(n) {
+                // Giữ nguyên đơn giản để tránh lỗi ToString trong Razor:
+                // hiện số với tối đa 2 chữ số thập phân.
+                return (Math.round(n * 100) / 100).toString();
+            }
+
+            function recalcTotals() {
+                let subtotal = 0;
+                document.querySelectorAll('tr.cart-row').forEach(tr => {
+                    const price = parseFloat(tr.dataset.price || '0') || 0;
+                    const qtyInput = tr.querySelector('.qty-input');
+                    const qty = Math.max(1, parseInt(qtyInput.value || '1', 10));
+                    const line = price * qty;
+                    tr.querySelector('.line-total').textContent = format(line);
+                    subtotal += line;
+                });
+
+                document.getElementById('subtotalAmount').textContent = format(subtotal);
+                document.getElementById('totalAmount').textContent = format(subtotal + shippingFlat);
+            }
+
+            async function persistQty(id, qty) {
+                try {
+                    await fetch('/Cart/UpdateQty', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ id: id, qty: qty })
+                    });
+                    // Không cần xử lý response chi tiết; UI đã cập nhật tức thì.
+                } catch (e) {
+                    console.warn('UpdateQty failed:', e);
+                }
+            }
+
+            // Plus / Minus
+            document.addEventListener('click', function (e) {
+                const btnPlus = e.target.closest('.btn-plus');
+                const btnMinus = e.target.closest('.btn-minus');
+                if (!btnPlus && !btnMinus) return;
+
+                const row = e.target.closest('tr.cart-row');
+                if (!row) return;
+
+                const input = row.querySelector('.qty-input');
+                let qty = Math.max(1, parseInt(input.value || '1', 10));
+
+                if (btnPlus) qty++;
+                if (btnMinus) qty = Math.max(1, qty - 1);
+
+                input.value = qty;
+                recalcTotals();
+
+                const id = parseInt(row.dataset.id || '0', 10);
+                if (id > 0) persistQty(id, qty);
+            });
+
+            // Nhập tay số lượng
+            document.addEventListener('input', function (e) {
+                const input = e.target.closest('.qty-input');
+                if (!input) return;
+                // chỉ cho số
+                input.value = input.value.replace(/[^\d]/g, '');
+            });
+
+            document.addEventListener('change', function (e) {
+                const input = e.target.closest('.qty-input');
+                if (!input) return;
+                let qty = parseInt(input.value || '1', 10);
+                if (isNaN(qty) || qty < 1) qty = 1;
+                input.value = qty;
+
+                const row = input.closest('tr.cart-row');
+                const id = parseInt(row?.dataset.id || '0', 10);
+                recalcTotals();
+                if (id > 0) persistQty(id, qty);
+            });
+
+            // Tính lần đầu
+            recalcTotals();
+        })();
+    </script>
+}

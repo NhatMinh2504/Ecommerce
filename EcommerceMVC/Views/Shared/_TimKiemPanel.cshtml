@@ -1,0 +1,13 @@
+﻿<form asp-action="Search" asp-controller="HangHoa" method="get" class="d-flex w-100">
+    <input type="search"
+           class="form-control p-3"
+           placeholder="keywords"
+           aria-describedby="search-icon-1"
+           name="query"
+           value="@(ViewContext?.HttpContext?.Request?.Query["query"].ToString())" />
+    <button type="submit" class="btn btn-light">
+        <span id="search-icon-1" class="input-group-text p-3">
+            <i class="fa fa-search"></i>
+        </span>
+    </button>
+</form>
